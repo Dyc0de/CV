@@ -1,0 +1,162 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+\usepackage{newcent}   % uses new century schoolbook postscript font
+\usepackage{hyperref}
+\usepackage{color}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\begin{document} 
+
+\name{Dylan Farvacque\\[12pt]} % the \\[12pt] adds a blank line after name
+
+\address{{\bf Address} \\ 7220, 21\textsuperscript{st} Avenue, app \#205 \\ Montr\'{e}al, QC, H2A 2J5  \\ Canada. \\
+ (438) 873-0497 }
+\address{{\bf Email} \\ dylan.farvacque@polymtl.ca \\ {\href{https://ca.linkedin.com/in/dylanfarvacque}{\textcolor{blue}{\underline{My Linkedin}}}}}
+
+\voffset = -20pt
+\textheight = 700pt
+\textwidth = 425pt
+\footskip = 0pt
+
+\begin{resume} 
+
+  %Section competences 
+  \section{Skills}
+  %skills sur 2 colonnes
+  \begin{ncolumn}{2}
+    \bf{\underline{Languages:}} & \bf{\underline{Softwares:}} \\
+    C/C++, Python, & Microsoft Visual Studio, \\
+    C\#, XAML and Makefile,  & Emacs, \LaTeX, \\
+    Bases of java and VHDL, & GNU/linux, \\
+    Bases of HTML5,JS and CSS, & TFS, Git et SVN, \\
+    Bases of x86 Assembly. & Netbeans. \\
+    
+  \end{ncolumn}
+
+  
+  %Sous-sec aptitudes general   
+  {\bf General skills}
+  \begin{itemize} \itemsep -2pt
+  \item Take initiatives;
+  \item Sense of responsibility, and well-organised;
+  \item Capacity to adapt myself to a lot of situations, learn and apply fast;
+  \end{itemize}
+  \HRule
+
+  %Sectoin honneur et reconnaissances
+  \section{Honors \& \newline Awards}
+  
+  {\bf IEEEXtreme 8.0 competition} \hfill October 2014
+  \begin{itemize} \itemsep -3pt
+  \item World wide algorithms competition;
+  \item Ranked 99\textsuperscript{th} out of 1852 teams;
+  \item 24h programmation competition.
+  \end{itemize}
+  
+  {\bf Recipient of the Philip \& Lily Malouf Prize} \hfill May 2014
+  \begin{itemize} \itemsep -2pt
+  \item Competition within the context of the first year integrative project;
+  \item C/C++ embeded project.
+  \item Finished 1st of the project.
+  \end{itemize}
+  
+  {\bf ``Comp\'{e}tion informatique de Polytechnique Montr\'{e}al''} \hfill January 2014
+  \begin{itemize} \itemsep -2pt
+  \item Algorithms competition taking place during the computer science week in Polytechnique  Montr\'{e}al;
+  \item Ranked 3rd as a first year student and 5th overall.
+  \end{itemize}
+
+
+  %Section implication externes
+  \section{External Implications}
+  
+  {\bf STEP co-admin} \hfill June 2014 -
+  \begin{itemize} \itemsep -2pt
+  \item Maintain students' servers; \hfill to the day
+  \item Update and maintain the STEP's website (rework in progress);
+  \item On demand creation of mailing lists, repos and server space for students projects.
+  \end{itemize}
+  
+%  {\bf Tennis coach assistant}
+%  \begin{itemize} \itemsep -2pt
+%  \item Preparing lessons;
+%  \item Giving advice to athletes and demonstrating various exercices.
+%  \end{itemize}
+  
+  %Section Experience
+  
+  \section{Experiences}
+
+  {\bf Software Developer,} \hfill May 2015 -\\
+  Nventive, Montr\'eal, Canada \hfill to the day
+  \begin{itemize} \itemsep -2pt  % reduce space between items
+  \item Full time intern until end of august 2015, part time during semester;
+  \item .Net Frontend developer;
+  \item MVVM  architectural pattern;
+  \item Use Rx and linq along with C\#.
+  \end{itemize}
+  
+    
+ % {\bf Computer Technician,} \hfill June 2014 -\\
+ % Bureau en Gros (Staples), Montr\'{e}al, Canada  \hfill August 2015
+ % \begin{itemize} \itemsep -2pt  % reduce space between items
+% \item Organising both my working time and scholar time together; 
+% \item Customer service, salesman;
+% \item Create and maintain a positive working atmosphere.
+% \end{itemize}
+  
+
+  %Section education
+
+  \section{Education}
+  
+  {\bf Bachelor of software engineering } \hfill 2013 -\\ 
+  Polytechnique Montr\'{e}al \hfill to the day
+  \begin{itemize} \itemsep -2pt
+  \item This semester : Software Test \& Validation, Computer Networks, Economics, Physics for Multimedia, Thermodynamics;
+  \item Done : Introduction to programming(C/C++), object oriented programming(C++), 1\textsuperscript{st} year project(C/C++), Software conception(C/C++), Data structures and algorithm(java), UI conception(java, html5, css, js), Computer and software engineering, Numerical systems logic (VHDL), micro computer’s architecture (x86 Assembly), discrete structures,  2\textsuperscript{nd} year project(UI in C\#, core in C/C++);
+  \item Report card on demand.
+  \end{itemize}
+  
+  
+%  {\bf DCS of pure and applied science} \hfill 2011 -\\
+%  CEGEP de Maisonneuve \hfill 2013
+%  \begin{itemize} \itemsep -2pt
+%   \item Report card and Diploma on demand.
+%  \end{itemize}
+
+
+
+  %Section sport
+
+  \section{Sports \\Results}
+  
+  {\bf General}
+  \begin{itemize} \itemsep -2pt % reduce space between items
+  \item Handball Martinique Champion division U9 (9years old);
+  \item Gymnastics Martinique Champion division U10 and U11 (10-11 years old)
+  \item Martinique Badminton Champion and inter-academy finalist division U12-U13 (12-13 years old)
+  \item 2\textsuperscript{nd} of the ``Foul\'e de la St-Sylvestre'' (5km race) division U14-U15 (14-15 years old)
+  \end{itemize}
+
+  {\bf Tennis}
+  \begin{itemize} \itemsep -2pt % reduce space between items
+
+  \item Semi-finalist of St-Marie tournament division U13-U14 (13-14 years old);
+  \item 2\textsuperscript{nd} round of the Spourtourne young tournament division U13-U14 (13-14 years old);
+  \item 3\textsuperscript{rd} round of the Robert’s open tournament (all ages) at the age of 14;
+  \item Martinique Vice-Champion of team tennis division U16 to U18 (16 to 18 years old) at the age of 15.
+  \end{itemize}
+
+
+\end{resume} 
+\end{document} 
+
+
+
