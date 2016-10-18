@@ -1,42 +1,43 @@
-% LaTeX file for resume 
+% LaTeX file for resume
 % This file uses the resume document class (res.cls)
 
-\documentclass[margin]{res} 
-% the margin option causes section titles to appear to the left of body text 
+\documentclass[margin]{res}
+% the margin option causes section titles to appear to the left of body text
 \textwidth=5.2in % increase textwidth to get smaller right margin
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{newcent}   % uses new century schoolbook postscript font
+\usepackage{hyperref}
+\usepackage{color}
 
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 
 \textheight = 700pt
 
-\begin{document} 
+\begin{document}
 
 \name{Dylan Farvacque\\[12pt]} % the \\[12pt] adds a blank line after name
 
-\address{{\bf Adresse} \\ 7220, 21\textsuperscript{e} Avenue, app\#205 \\ Montr\'{e}al, QC, H2A 2J5  \\ Canada. \\(438) 873-0497 }
-\address{{\bf Courriel} \\ dylan.farvacque@polymtl.ca}
+\address{{\bf Adresse} \\ 2295, Avenue Aird, app\#08 \\ Montr\'{e}al, QC, H1V 2W4  \\ Canada. \\(438) 873-0497 }
+\address{{\bf Courriel} \\ dylan.farvacque@polymtl.ca \\{\href{https://ca.linkedin.com/in/dylanfarvacque}{\textcolor{blue}{\underline{Mon Linkedin}}}}}
 
-\begin{resume} 
+\begin{resume}
 
 
-  %Section competences 
+  %Section competences
   \section{Comp\'{e}tences}
 
   %skills sur 2 colonnes
   \begin{ncolumn}{2}
     \bf{\underline{Langages:}} & \bf{\underline{Logiciels:}} \\
-    C/C++, Python, & Microsoft Visual Studio, \\
-    Java et Makefile,  & Emacs, \LaTeX, \\
-    C\#, Python et VHDL, & GNU/linux, \\
+    C/C++, Python, & Microsoft Visual Studio, XCode \\
+    C\# et TypeScript,  & Emacs, \LaTeX, \\
+    Java et Python, & GNU/linux, \\
     Notions de Swift, & Git et SVN, \\
-    Bases de language assembleur. & XCode, Netbeans. \\
-    
+
   \end{ncolumn}
 
-  
-  %Sous-sec aptitudes generales   
+
+  %Sous-sec aptitudes generales
   {\bf Aptitudes g\'en\'erales}
   \begin{itemize} \itemsep -2pt
   \item Prendre des initiatives;
@@ -48,56 +49,56 @@
 
   %Sectoin honneur et reconnaissances
   \section{Bourses \& Reconnaissances}
-  
+
   {\bf Comp\'etition IEEExtreme 8.0 et 9.0} \hfill 2014 - 2015
   \begin{itemize} \itemsep -2pt
   \item Comp\'etition mondiale d'algorithmie en \'equipe;
   \item Termine 99\textsuperscript{e} de la comp\'etition sur 1852 \'equipes; \hfill octobre 2014
-  \item Termine dans le top 200 mondial et top 10 national; \hfill octobre 2015
-  \item Comp\'etition de 24h de programmation.
+  \item Termine dans le top 200 mondial et top 10 national. \hfill octobre 2015
   \end{itemize}
-  
+
   {\bf R\'{e}cipiendaire du prix Philip et Lily Malouf} \hfill mai 2014\\
   Polytechnique Montr\'eal
   \begin{itemize} \itemsep -2pt
   \item Termine 1\textsuperscript{er} de la comp\'{e}tition de robot dans le cadre du projet\\   int\'{e}grateur de 1\`{e}re ann\'{e}e.
   \end{itemize}
-  
+
   {\bf Comp\'{e}tition informatique de polytechnique Montr\'{e}al} \hfill janvier 2014
   \begin{itemize} \itemsep -2pt
   \item Comp\'{e}tition d'algorithmie des comit\'{e}s informatique et logiciel;
   \item Termine 3\textsuperscript{e} des premi\`{e}re ann\'{e}e et 5\textsuperscript{e} au g\'{e}n\'{e}ral.
   \end{itemize}
 
-
-  %Section implication externes
-  \section{Implications}
-  
-  {\bf Co-admin du STEP} \hfill juin 2014
-  \begin{itemize} \itemsep -2pt
-  \item Entretien des serveurs des \'etudiants de Polytechnique; \hfill - pr\'esent
-  \item Mise en place et maintient des logiciels de gestion de\\ versions Git et SVN;
-  \item Mise \`{a} jour et entretien du site web du STEP (en cours);
-  \item Cr\'{e}ation des mailing list, espaces web et bases de donn\'ees sur demande.
-  \end{itemize}
-  
   %Section education
 
   \section{\'{E}ducation}
-  
-  {\bf Baccalaur\'eat en g\'{e}nie logiciel} \hfill 2013 -\\ 
+
+  {\bf Baccalaur\'eat en g\'{e}nie logiciel} \hfill 2013 -\\
   \'{E}cole Polytechnique Montr\'{e}al \hfill pr\'{e}sent
   \begin{itemize} \itemsep -2pt
 \item Projet int\'egrateur de troisi\`eme ann\'ee en cours;
 \item \'Evolution et d\'eveloppement d'un projet d\'ej\`a existant;
-%  \item En cours : Projet int\'egrateur 2\textsuperscript{e} ann\'ee (UI en C\#, core en C++),\\ Syst\`eme d'exploitation, Infographie, Fichiers et bases de donn\'ees;
-%  \item Termin\'es : Introduction \'a la programmation (C/C++), Programmation orient\'ee objet (C++), Projet int\'egrateur 1\textsuperscript{ère} ann\'ee (C/C++), Conception logiciel (C++), Structure de donn\'ees et algorithmes (java), Architecture de micro ordinateur (x86 assembly), Conception d'interface(java, html5, css, js), Ing\'eneirie informatique et logiciel, Système numérqiue logique (VHDL).  
   \item Relev\'{e} de notes sur demande.
   \end{itemize}
 
   %Section Experience
-  
+
   \section{Exp\'{e}riences professionnelles}
+
+  {\bf Charg\'e de laboratoire de projet 2,} \'Ecole Polytechnique, \hfill ao\^ut 2016 -
+  \\Montr\'{e}al, Canada \hfill pr\'{e}sent
+  \begin{itemize} \itemsep -2pt  % reduce space between items
+  \item Guidez et r\'/pondre aux questions des \'etudiants;
+  \item Corrigez les diff\'erents livrables;
+  \item Travailler en \'equipe avec le professeur et le second charg\'e de laboratoire.
+  \end{itemize}
+
+  {\bf Assistant de recherche,} \'Ecole Polytechnique, Montr\'{e}al, Canada \hfill mai 2016 -
+  \begin{itemize} \itemsep -2pt  % reduce space between items
+  \item Reconstruire le cours de projet int\'egrateur de seconde ann\'ee; \hfill ao\^ut 2016
+  \item Exp\'erimenter les diff\'errent frameworks web;
+  \item Utilisation de Typescript, Angular2, expressJS et ThreeJS.
+  \end{itemize}
 
   {\bf D\'eveloppeur logiciel,} Nventive, Montr\'{e}al, Canada \hfill mai 2015 -
   \begin{itemize} \itemsep -2pt  % reduce space between items
@@ -105,25 +106,25 @@
   \item Travail selon la m\'ethodologie agile;
   \item Support et \'evolution de projets d\'ej\`a existants.
   \end{itemize}
-  
-  {\bf Technicien informatique,} Bureau en Gros, Montr\'{e}al, Canada \hfill juin 2014
-  \begin{itemize} \itemsep -2pt  % reduce space between items
-  \item Organiser son temps de travail avec le temps scolaire; \hfill - ao\^ut 2015
-  \item Gestion des clients; recherche de la satisfaction;
-  \item Cr\'{e}er et maintenir une atmosph\`{e}re de travail agr\'{e}able. 
-  \end{itemize}
-  
+
   %Section sport
 
-  \section{Autres implications}
+  %Section implication externes
+  \section{Implications}
 
-  {\bf Informatique}
+  {\bf Informatique \& Logiciel}
   \begin{itemize} \itemsep -2pt % reduce space between items
+  \item Membre de la soci\'et\'e technique Machine EPM; \hfill septembre 2016
+  \item Participation au Slackathon organis\'e par GSoft; \hfill juillet 2016
+  \item Administrateur r\'eseau de l'association des \'Etudiants \hfill juin 2015 \\
+  de Polytechnique;
   \item Participation \`a la comp\'etition Microsoft; \hfill novembre 2015
-  \item Participation \`a la comp\'etition informatique\\ de Polytechnique Montr\'eal; \hfill janvier 2015
-  \item Membre de Hackerrank afin d'am\'eliorer mes comp\'etences\\ en programmation.
+  \item Participation \`a la comp\'etition informatique \hfill janvier 2015
+  \\ de Polytechnique Montr\'eal;
+  %\item Membre de Hackerrank afin d'am\'eliorer mes comp\'etences\\ en programmation.
+  \item Administrateur des serveurs \'etudiants de Polytechnique; \hfill juin 2014
   \end{itemize}
-  
+
   {\bf Sport}
   \begin{itemize} \itemsep -2pt % reduce space between items
   \item Champion de Martinique de handball cat\'egorie \'eveil athl\'etique (9 ans et moins);
@@ -137,8 +138,5 @@
   \end{itemize}
 
 
-\end{resume} 
-\end{document} 
-
-
-
+\end{resume}
+\end{document}
